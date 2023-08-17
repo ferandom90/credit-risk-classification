@@ -17,6 +17,7 @@ Uses RandomOverSampler from imbalanced-learn to oversample the training data, en
 Fits a logistic regression model to the resampled training data.
 Makes predictions on the testing data.
 Evaluates the model's performance using the same metrics as before.
+
 Answering Questions:
 Provides answers to questions about the performance of both models in predicting healthy loans (0) and high-risk loans (1).
 Overall, the code demonstrates the process of importing data, splitting it into training and testing sets, building and evaluating logistic regression models both with the original data and resampled (oversampled) data to address class imbalance. The resampled model tends to perform better in predicting both healthy loans (0) and high-risk loans (1), indicating improved performance due to handling class imbalance.
